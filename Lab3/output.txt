@@ -1,0 +1,71 @@
+Todo list from worker
+-----------------------------------------------
+CityHall(1) to NorthRamsettPark(2) = 8.4
+NorthRamsettPark(2) to RamsettGolfCourse(3) = 4.6
+RamsettGolfCourse(3) to PettingZoo(4) = 2.2
+PettingZoo(4) to PawneeRiverFront(5) = 3.4
+PawneeRiverFront(5) to StJosephMed(6) = 3.1
+StJosephMed(6) to RiverPark(7) = 6
+RiverPark(7) to FoodandStuff(8) = 4.9
+FoodandStuff(8) to ThePit(9) = 5.5
+ThePit(9) to TheSnakeHole(10) = 2.8
+TheSnakeHole(10) to TurnbillMansion(24) = 3.4
+TurnbillMansion(24) to PaunchBurger(22) = 3.7
+PaunchBurger(22) to MouseRatConcert(18) = 3.8
+MouseRatConcert(18) to CityHall(1) = 9.6
+TOTAL DISTANCE = 61.4
+
+
+Create initial path with nearest neighbor hueristic
+-----------------------------------------------
+CityHall(1) to RiverPark(7) = 2.3
+RiverPark(7) to TurnbillMansion(24) = 0.4
+TurnbillMansion(24) to PettingZoo(4) = 3.7
+PettingZoo(4) to RamsettGolfCourse(3) = 2.2
+RamsettGolfCourse(3) to MouseRatConcert(18) = 1.8
+MouseRatConcert(18) to NorthRamsettPark(2) = 2.8
+NorthRamsettPark(2) to PaunchBurger(22) = 2
+PaunchBurger(22) to StJosephMed(6) = 7.1
+StJosephMed(6) to PawneeRiverFront(5) = 3.1
+PawneeRiverFront(5) to TheSnakeHole(10) = 6.1
+TheSnakeHole(10) to FoodandStuff(8) = 2.7
+FoodandStuff(8) to ThePit(9) = 5.5
+ThePit(9) to CityHall(1) = 7.7
+TOTAL DISTANCE = 47.4
+
+
+Greedy algorithm with random swapping
+-----------------------------------------------
+CityHall(1) to RiverPark(7) = 2.3
+RiverPark(7) to TurnbillMansion(24) = 0.4
+TurnbillMansion(24) to RamsettGolfCourse(3) = 5.1
+RamsettGolfCourse(3) to MouseRatConcert(18) = 1.8
+MouseRatConcert(18) to PaunchBurger(22) = 3.8
+PaunchBurger(22) to NorthRamsettPark(2) = 2
+NorthRamsettPark(2) to PettingZoo(4) = 4.2
+PettingZoo(4) to PawneeRiverFront(5) = 3.4
+PawneeRiverFront(5) to StJosephMed(6) = 3.1
+StJosephMed(6) to ThePit(9) = 4.4
+ThePit(9) to TheSnakeHole(10) = 2.8
+TheSnakeHole(10) to FoodandStuff(8) = 2.7
+FoodandStuff(8) to CityHall(1) = 2.6
+TOTAL DISTANCE = 38.6
+
+
+Simulated annealing (SA) algorithm with random swapping
+-----------------------------------------------
+CityHall(1) to RiverPark(7) = 2.3
+RiverPark(7) to TurnbillMansion(24) = 0.4
+TurnbillMansion(24) to PaunchBurger(22) = 3.7
+PaunchBurger(22) to NorthRamsettPark(2) = 2
+NorthRamsettPark(2) to MouseRatConcert(18) = 2.8
+MouseRatConcert(18) to RamsettGolfCourse(3) = 1.8
+RamsettGolfCourse(3) to PettingZoo(4) = 2.2
+PettingZoo(4) to PawneeRiverFront(5) = 3.4
+PawneeRiverFront(5) to StJosephMed(6) = 3.1
+StJosephMed(6) to ThePit(9) = 4.4
+ThePit(9) to TheSnakeHole(10) = 2.8
+TheSnakeHole(10) to FoodandStuff(8) = 2.7
+FoodandStuff(8) to CityHall(1) = 2.6
+TOTAL DISTANCE = 34.2
+
