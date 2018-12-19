@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.temp/tools" vcs="hg4idea" />
+    <mapping directory="$PROJECT_DIR$/4DGL-uLCD-SE" vcs="hg4idea" />
+    <mapping directory="$PROJECT_DIR$/MMA8452" vcs="hg4idea" />
+    <mapping directory="$PROJECT_DIR$/PinDetect" vcs="hg4idea" />
+    <mapping directory="$PROJECT_DIR$/SDFileSystem" vcs="hg4idea" />
+    <mapping directory="$PROJECT_DIR$/SDFileSystem/FATFileSystem" vcs="hg4idea" />
+    <mapping directory="$PROJECT_DIR$/mbed-os" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wave_player" vcs="hg4idea" />
+  </component>
+</project>

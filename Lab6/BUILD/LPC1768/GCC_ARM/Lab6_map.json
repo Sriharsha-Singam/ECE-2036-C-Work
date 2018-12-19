@@ -1,0 +1,109 @@
+[
+    {
+        "module": "BUILD/LPC1768", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": -788, 
+            ".bss": 521, 
+            ".data": 3392, 
+            ".bss-delta": 0, 
+            ".text": 6503
+        }
+    }, 
+    {
+        "module": "[fill]", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": -4, 
+            ".bss": 8, 
+            ".data": 7, 
+            ".bss-delta": 0, 
+            ".text": 330
+        }
+    }, 
+    {
+        "module": "[lib]/c.a", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 127, 
+            ".data": 2556, 
+            ".bss-delta": 0, 
+            ".text": 72499
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 8828
+        }
+    }, 
+    {
+        "module": "[lib]/mbed.a", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 264, 
+            ".data": 28, 
+            ".bss-delta": 0, 
+            ".text": 9165
+        }
+    }, 
+    {
+        "module": "[lib]/misc", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 28, 
+            ".data": 12, 
+            ".bss-delta": 0, 
+            ".text": 252
+        }
+    }, 
+    {
+        "module": "[lib]/nosys.a", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 36
+        }
+    }, 
+    {
+        "module": "[lib]/stdc++.a", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 5680, 
+            ".data": 165, 
+            ".bss-delta": 0, 
+            ".text": 171930
+        }
+    }, 
+    {
+        "module": "mbed/824293ae5e43", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 256, 
+            ".data": 8, 
+            ".bss-delta": 0, 
+            ".text": 1586
+        }
+    }, 
+    {
+        "summary": {
+            "static_ram": 13052, 
+            "total_flash_delta": -792, 
+            "static_ram_delta": 0, 
+            "total_flash": 277297
+        }
+    }
+]

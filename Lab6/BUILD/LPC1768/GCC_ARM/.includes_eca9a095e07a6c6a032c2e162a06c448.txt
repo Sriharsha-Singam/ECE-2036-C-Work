@@ -1,0 +1,1 @@
+-I. -I./4DGL-uLCD-SE -I./PinDetect -I./SDFileSystem -I./SDFileSystem/FATFileSystem -I./SDFileSystem/FATFileSystem/ChaN -I./mbed -I./mbed/824293ae5e43 -I./mbed/824293ae5e43/TARGET_LPC1768
